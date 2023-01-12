@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Mulish', sans-serif;
+  background-color: #2F112D;
+}
+
+.App{
+  background-color: #2F112D;
+  height: 100vh;
+}
+
+.login{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2e132c;
+}
+
+.img1{
+  width: 400px;
+}
+
+.texto1{
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 35px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+.container-texto{
+  width: 300px;
+}
+
+.texto2{
+  color: #ffffff;
+}
+
+.img2{
+  width: 100%;
+}
+
+.copy{
+  color: #60265b;
+  margin-top: 56px;
+  text-align: center;
+}
+
+.copy span{
+ color: #f50d5a;
+}
+
+.texto1 span{
+  color: #f50d5a;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.container-texto .t1{
+  width: 100%;
+    background-color: #150714;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #914D8B;
+}
+
+.container-texto .input1::placeholder{
+    color: #914D8B;
+}
+
+.container-texto .input1{
+  width: 100%;
+    background-color: #150714;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #914D8B;
+}
+
+.re{
+  color: #ffffff;
+  display: flex;
+  width: 40%;
+  padding: 20px;
+  margin: auto;
+}
+
+
+.button{
+  width: 100%;
+    padding: 15px;
+    background-color: #00da76;
+    border: none;
+    margin-left: 9px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+}
+.header{
+  background-color: #2e132c;
+}
+
+.header2{
+  background-color: #2e132c;
+}
+
+.header2 .button{
+  width: 100px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.img3{
+  width: 300px;
+  height: 60px;
+  top: 17px;
+  position: relative;
+}
+
+.header3{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.insert{
+  padding: 20px;
+  background-color: #150714;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textarea{
+  width: 500px;
+  height: 100px;
+  display: block;
+  background-color: #2f112d;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: #914d8b;
+  padding: 5px;
+}
+
+
+.textarea::placeholder{
+  color: #914d8b;
+}
+
+.img4{
+  width: 76px;
+  border-radius: 50%;
+  margin: 11px;
+}
+.img5{
+  width: 85px;
+  border-radius: 50%;
+  margin: 14px;
+  position: relative;
+  top: -48px;
+}
+
+.btn{
+background-color: #2f112d;
+color: #150714;
+border: none;
+font-weight: bold;
+padding: 10px;
+font-size: 18px;
+margin-left: 435px;
+}
+
+.limit{
+  text-align: right;
+  color: #f50d5a;
+  margin: 5px;
+}
+
+.botones{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn1{
+height: 30px;
+width: 30px;
+background-color: #F50D5A;
+border: none;
+}
+
+.btn2{
+  height: 30px;
+  width: 30px;
+  background-color: #FF865C;
+  border: none;
+  }
+
+  .btn3{
+    height: 30px;
+    width: 30px;
+    background-color: #FFEA5C;
+    border: none;
+    }
+    
+    .btn4{
+      height: 30px;
+      width: 30px;
+      background-color: #00DA76;
+      border: none;
+      }
+    
+      .btn5{
+        height: 30px;
+        width: 30px;
+        background-color: #0096CE;
+        border: none;
+        }
+    
+        .btn6{
+          height: 30px;
+          width: 30px;
+          background-color: #800FFF;
+          border: none;
+          }
+          
+.textColor{
+  color: #ffffff;
+}
+
+/** feed's **/
+
+.login2{
+  height: 100vh;
+  background-color: #2e132c;
+}
+
+.header4{
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.img6{
+  width: 450px;
+}
+
+.img7{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.contInput{
+  background-color: #150714;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.img8{
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
+.contInput1{
+  padding-left: 20px;
+}
+
+.input2{
+  width: 500px;
+  height: 150px;
+  background-color: #2F112D;
+  border: none;
+  outline: none;
+  color: #914D8B;
+}
+
+.input2::placeholder{
+  color: #914D8B;
+  padding: 10px;
+}
+
+.texto3{
+color: #F50D5A;
+text-align: right;
+}
+
+.btn7{
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #2F112D;
+  margin-left: 200px;
+  border: none;
+  margin-left: 430px;
+
+}
+
+.button2{
+  width: 100%;
+    padding: 15px;
+    background-color: #3F7FE9;
+    border: none;
+    margin-left: 9px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.btnG{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.login2{
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  background-color: #2e132c;
+}
+
+.header5{
+  display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.img9{
+  width: 350px;
+}
+
+.contentFeed{
+  background-color: #150714;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.img10{
+      border-radius: 50%;
+    width: 80px;
+}
+
+.img11{
+  border-radius: 50%;
+  width: 80px;
+  margin-right: 20px;
+  height: 80px;
+}
+
+.input3{
+  color: #914D8B;
+  background-color: #2E112C;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+    height: 100px;
+}
+
+.input3::placeholder{
+  color: #914D8B;
+  padding: 10px;
+}
+
+.texto4{
+  color: #F50D5A;
+  text-align: right;
+  background-color: #150714;
+}
+
+.contentFeed1{
+  background-color: #150714;
+}
+
+.btn8{
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px;
+  background-color: #2F112D;
+  color: #150714;
+  border: none;
+  margin-left: 348px;
+  margin-top: 10px;
+}
+
+a{
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.enlace{
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aa{
+  font-size: 30px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #F50D5A;
+}
+
+.aaa{
+  font-size: 30px;
+  font-family: 'Press Start 2P', cursive;
+}
+.btnL{
+  font-family: 'Press Start 2P', cursive;
+  background-color: #F50D5A;
+  padding: 5px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enlace2{
+  background-color: #F4E058;
+  font-family: 'Press Start 2P', cursive;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+
+.contentFeed2{
+  background-color: #150714;
+}
+
+.contentFeed2-sub{
+  padding: 20px;
+  width: 20%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: #150714;
+}
+
+.img12{
+  border-radius: 50%;
+    width: 130px;
+    margin-right: 20px;
+    height: 130px;
+    display: block;
+    margin: auto;
+    border: solid 4px;
+    margin-bottom: 15px;
+}
+
+.header6{
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.header7{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.icon1{
+  font-size: 25px;
+}
+
+.texto5{
+  background-color: #F4E058;
+  color: #000;
+  padding: 5px;
+  font-family: 'Press Start 2P', cursive;
+  width: 158px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.tab{
+  background-color: #150714;
+  display: flex;
+  width: 40%;
+  margin: auto;
+  justify-content: center;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 2px solid #60265B !important;
+  margin: 0 0 10px;
+  padding: 0;
+  color: #ffffff;
+  margin: auto;
+  background-color: #150714 !important;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.react-tabs__tab--selected {
+  background: #60265B !important;
+  border-color: #60265B !important;
+  color: black !important;
+  border-radius: 0px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: transparent;
+ color: #60265B;
+ font-family: 'Press Start 2P', cursive;
+}
+
+.goggle{
+  background-color: #fff;
+}
+
+.ListComents{
+  width: 35%;
+    color: #fff;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.ListComents1{
+  display: flex;
+}
+
+
+.img13{
+  width: 15%;
+  padding: 10px;
+  height: auto;
+  border-radius: 50%;
+}
+
+
+.texto{
+  width: 80%;
+}
+
+.p{
+  width: 40%;
+  padding: 5px;
+  color: #000;
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 16px;
+  font-size: 13px;
+}
+
+.cabecera{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.FotoUser {
+  width: 15%;
+  border-radius: 50%;
+  margin-right: 10px;
+  height: 15%;
+}
+
+.textoU{
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.textoU1{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.u{
+  color: #000;
+  font-family: 'Press Start 2P', cursive;
+  padding: 5px;
+  height: 25px;
+  font-size: 11px;
+}
+
+.btnDelete{
+  border: none;
+  font-size: 21px;
+  color: #ffffff;
+  margin-top: -16px;
+  background: transparent;
+}
+
+.fecha{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: center;
+  background-color: #150714;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #60265B !important;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #60265B;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: #150714 !important;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  border-bottom: solid 1px #60265B !important;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.nav-link {
+  display: block;
+  background-color: #150714;
+  padding: 0.5rem 1rem;
+  color: #60265B !important;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  color: #2F112D !important;
+  background-color: #60265B !important;
+  border-color: #60265B !important;
+}
+
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  border-color: #2F112D !important;
+  isolation: isolate;
+}
+
+.heart{
+  color: #F50D5A;
+}
